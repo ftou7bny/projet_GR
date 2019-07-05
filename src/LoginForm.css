@@ -1,0 +1,65 @@
+.username{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.password{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.login{
+    font-size: 25px;
+    background-color: #3CBC8D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+.LoginContenus{
+    padding-top: 40px;
+}
+.logoLogin{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /* background-image: url('./images/user-solid.svg'); */
+    background-position: 8px 0px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 58px;
+}
+.logoPassword{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /* background-image: url('./images/unlock-alt-solid.svg'); */
+    background-position: 8px 0px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 58px;
+}
+button {
+    padding: 10px 15px;
+    background-color: #3CBC8D;
+    color: white;
+    border: 1px solid #3CBC8D;
+    background-color: 250ms;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #3CBC8D;
+  }
+
+ .buttonLogin{
+    text-align: center;
+ }
+ .btnLogin{
+     width: 255px;
+ }

@@ -1,0 +1,91 @@
+.my-sm-0:hover {
+    cursor: pointer;
+    background-color: #3CBC8D;
+    color: white;
+  }
+.titleTableTicket{
+  background-color: peachpuff;
+}
+.tableTickets{
+  width: 32%;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.tableReservations{
+  /* width: 32%;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 40px; */
+}
+.tableReservations tr th
+{border-spacing:20px;
+  width: 85px;
+}
+tbody tr {
+  text-align: center
+}
+.tableReservations th{
+  text-align: center;
+}
+.ticketTable{
+  border-bottom: groove;
+}
+.Tickets {
+  border-width: 3px;
+  border-bottom-style: ridge;
+}
+.navBar{
+  /* display: flex;
+    justify-content: space-between;
+    justify-items: center; */
+}
+.dropdown-item{
+  position: relative;
+  /* margin-left: 50px */
+
+}
+.dropdown-list{
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 227, 227);
+  /* top: 100px; */
+  left: 0px;
+  width:200px;
+  border-radius: 5px;
+  opacity: 1;
+  line-height: 40px;
+}
+.dropdown-item:hover .dropdown-list{
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 50px */
+
+}
+.dopdown-item{
+  position: relative;
+  margin-left: 50px
+
+}
+.dopdown-item:hover .dropdown-list{
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 50px */
+
+}
+.dopdown-item a{
+  /* margin-left: 50px */
+  display: block;
+color:black;
+text-decoration: none;
+
+}
+.dropdown-list li{
+  list-style:none;
+  font-size: 16px;
+  text-decoration: none;
+
+}
+li ul li a{
+  text-decoration: none !important;
+}
